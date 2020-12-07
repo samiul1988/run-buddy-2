@@ -13,13 +13,17 @@
   /* HEADER / NAV BAR STYLES START */
   
   header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     padding: 20px 35px;
     background-color: #39a6b2;
   }
   
   header h1 {
     font-weight: bold;
-    display: inline;
+    /* display: inline; */
     margin: 0;
     font-size: 36px;
     color: #fce138;
@@ -31,7 +35,7 @@
   }
   
   header nav {
-    float: right;
+    /* float: right; */
     margin: 7px 0;
   }
   
